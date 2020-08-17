@@ -4,20 +4,4 @@ def inc(x):
 
 
 def test_answer1():
-    assert inc(3) == 4
-
-
-def test_answer2():
-    assert inc(4) == 5
-
-
-def test_answer3():
-    assert inc(5) == 6
-
-
-def test_answer4():
-    assert inc(6) == 7
-
-
-def test_answer5():
-    assert inc(5) == 6
+    assert inc(1) == 2
