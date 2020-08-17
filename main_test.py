@@ -13,3 +13,6 @@ def test_answer2():
 
 def test_answer3():
     assert inc(5) == 6
+    
+def test_answer4():
+    assert inc(6) == 7
