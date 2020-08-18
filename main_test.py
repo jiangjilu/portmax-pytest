@@ -5,3 +5,6 @@ def inc(x):
 
 def test_answer1():
     assert inc(1) == 2
+    
+def test_answer2():
+    assert inc(2) == 3
