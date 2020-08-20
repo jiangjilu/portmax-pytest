@@ -5,5 +5,5 @@ steps:
 - name: test
   image: python:3.6
   commands:
-  - pip install -r requirements.txt
+  - pip install -i https://mirrors.aliyun.com/pypi/simple/ --no-cache-dir -r requirements.txt
   - pytest  
